@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schedule Your Service - Makeover Booking Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://lh3.googleusercontent.com/d/1MMMeyOUvJxiGrUV-xKWuuMqTaCTSzv8Z" alt="Beauty Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="right-section">
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="user-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="8" r="4" />
+          <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+        </svg>
+      </div>
+    </div>
+  </nav>
+
+  <section class="schedule-page">
+    <div class="page-container">
+      <a href="packages.html" class="schedule-back-link">← Back</a>
+      <h1 class="schedule-title">Schedule Your Service</h1>
+      <p class="schedule-subtitle">Check Out Our Availability And Book The Date And Time That Works For You</p>
+
+      <div class="schedule-layout">
+        <div class="schedule-column">
+          <h3 class="schedule-column-title">Select A Date And Time</h3>
+          <p class="schedule-timezone">India Standard Time (IST)</p>
+
+          <div class="availability-card">
+            <p class="availability-date">Availability For Sunday 11 May</p>
+            <p class="availability-status no-availability">No Availability</p>
+            <a href="schedule_full.html" id="check-next" class="schedule-btn primary-btn">Check Next Availability</a>
+          </div>
+        </div>
+
+        <div class="schedule-column">
+          <h3 class="schedule-column-title">Service Details</h3>
+          <div class="service-details-card">
+            <p class="service-name">Bridal Makeup Luxury Package</p>
+            <p class="service-price">Rs 25000 Negotiable</p>
+            <button class="schedule-btn secondary-btn" id="request-book-top">Request To Book</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Populate service details on schedule.html from URL params
+    (function(){
+      const params = new URLSearchParams(window.location.search);
+      const title = params.get('title');
+      const price = params.get('price');
+      const duration = params.get('duration');
+
+      if(title){
+        const nameEl = document.querySelector('.service-name');
+        if(nameEl) nameEl.textContent = decodeURIComponent(title);
+      }
+      if(price){
+        const priceEl = document.querySelector('.service-price');
+        if(priceEl) priceEl.textContent = decodeURIComponent(price);
+      }
+      if(duration){
+        // if a duration field exists we can set it; otherwise leave as-is
+        const durEl = document.querySelector('.service-duration');
+        if(durEl) durEl.textContent = decodeURIComponent(duration);
+      }
+
+      // Preserve query string when navigating to detailed schedule page
+      const nextBtn = document.getElementById('check-next');
+      if(nextBtn){
+        const qs = window.location.search || '';
+        nextBtn.href = 'schedule_full.html' + qs;
+      }
+
+        // Wire Request To Book on this page to go to booking.html preserving params
+        const reqTop = document.getElementById('request-book-top');
+        if(reqTop){
+          reqTop.addEventListener('click', function(){
+            const qs = window.location.search || '';
+            // If no specific datetime on this page, just forward existing params
+            window.location.href = 'booking.html' + qs;
+          });
+        }
+    })();
+  </script>
+
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Mission</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Industries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Other Links</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cancellation and Refund</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column contact-info">
+        <h3>Contact Info</h3>
+        <div class="contact-item">
+          <span class="icon">f4cd</span>
+          <span>8-2-686/DR/9, Banjara Hills, Hyderabad, Telangana 500034</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">f4de</span>
+          <span>+91-869-011-0000</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">709</span>
+          <span>bookingmyna@gmail.com</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
