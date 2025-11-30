@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Alagu Mari:mailto:alagumari@vetriitsystems.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Business T
+ eam:mailto:businessteam@vetriitsystems.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Punitha V:
+ mailto:punithav@vetriitsystems.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Vetri Veer
+ iyan:mailto:vetriveeriyan@vetriitsystems.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=rizwanaaip
+ ython@vetripayslip.com:mailto:rizwanaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=hemasuthaa
+ ipython@vetripayslip.com:mailto:hemasuthaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=saranyadai
+ python@vetripayslip.com:mailto:saranyadaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=jayanthima
+ ipython@vetripayslip.com:mailto:jayanthimaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=santhisaip
+ ython@vetripayslip.com:mailto:santhisaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sowmiyaipy
+ thon@vetripayslip.com:mailto:sowmiyaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=arunkarthi
+ aipython@vetripayslip.com:mailto:arunkarthiaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sandhiyara
+ ipython@vetripayslip.com:mailto:sandhiyaraipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=jeyashreea
+ ipython@vetripayslip.com:mailto:jeyashreeaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=monishapai
+ python@vetripayslip.com:mailto:monishapaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sheebaaipy
+ thon@vetripayslip.com:mailto:sheebaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=jayashreek
+ aipython@vetripayslip.com:mailto:jayashreekaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=manimegala
+ iaipython@vetripayslip.com:mailto:manimegalaiaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=pavyaaipyt
+ hon@vetripayslip.com:mailto:pavyaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=kaliammala
+ ipython@vetripayslip.com:mailto:kaliammalaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=satheeshva
+ ipython@vetripayslip.com:mailto:satheeshvaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=mythiliaip
+ ython@vetripayslip.com:mailto:mythiliaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=naveenaipy
+ thon@vetripayslip.com:mailto:naveenaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=maryaipyth
+ on@vetripayslip.com:mailto:maryaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=ramyagaipy
+ thon@vetripayslip.com:mailto:ramyagaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=nandhinita
+ ipython@vetripayslip.com:mailto:nandhinitaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=mydheenaip
+ ython@vetripayslip.com:mailto:mydheenaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=subalaaipy
+ thon@vetripayslip.com:mailto:subalaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=tamilvania
+ ipython@vetripayslip.com:mailto:tamilvaniaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=bavaniaipy
+ thon@vetripayslip.com:mailto:bavaniaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=kavithanai
+ python@vetripayslip.com:mailto:kavithanaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=kavipriyaa
+ ipython@vetripayslip.com:mailto:kavipriyaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=parameswar
+ iaipython@vetripayslip.com:mailto:parameswariaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gobihaaipy
+ thon@vetripayslip.com:mailto:gobihaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sentrayaku
+ maraipython@vetripayslip.com:mailto:sentrayakumaraipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=aryaaipyth
+ on@vetripayslip.com:mailto:aryaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=madhumathi
+ saipython@vetripayslip.com:mailto:madhumathisaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=vithyasria
+ ipython@vetripayslip.com:mailto:vithyasriaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=poornimaip
+ ython@vetripayslip.com:mailto:poornimaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=priyankasa
+ ipython@vetripayslip.com:mailto:priyankasaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=karthigais
+ elviaipython@vetripayslip.com:mailto:karthigaiselviaipython@vetripayslip.c
+ om
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=priyapaipy
+ thon@vetripayslip.com:mailto:priyapaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=josephines
+ nehaaipython@vetripayslip.com:mailto:josephinesnehaaipython@vetripayslip.c
+ om
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=pugazhenth
+ iaipython@vetripayslip.com:mailto:pugazhenthiaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gangaaipyt
+ hon@vetripayslip.com:mailto:gangaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sankaviaip
+ ython@vetripayslip.com:mailto:sankaviaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=banupriyaa
+ ipython@vetripayslip.com:mailto:banupriyaaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gayathriai
+ python@vetripayslip.com:mailto:gayathriaipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=lakshmirai
+ python@vetripayslip.com:mailto:lakshmiraipython@vetripayslip.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=selvarajan
+ aipython@vetrielectronics.com:mailto:selvarajanaipython@vetrielectronics.c
+ om
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=saranyarda
+ ipython@vetrielectronics.com:mailto:saranyardaipython@vetrielectronics.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=ayishaaipy
+ thon@vetrielectronics.com:mailto:ayishaaipython@vetrielectronics.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=bhuvaneswa
+ rinaipython@vetrielectronics.com:mailto:bhuvaneswarinaipython@vetrielectro
+ nics.com
+DESCRIPTION;LANGUAGE=en-US:Hi Team\,\n\nYou are invited to attend the AI Py
+ thon Full Stack Training Session.\n\n\n\n\n\n\n\n\n\nJoin the session usin
+ g the link below:\n\n\n\n\n\nBest Regards\,\n\nAlagu Mari V\n\nSoftware Tr
+ ainer\n\nVetri Technology Solutions.\n\n\n\n______________________________
+ __________________________________________________\nMicrosoft Teams Need h
+ elp?<https://aka.ms/JoinTeamsMeeting?omkt=en-US>\nJoin the meeting now<htt
+ ps://teams.microsoft.com/l/meetup-join/19%3ameeting_MmZmY2E1ZGYtM2I0Ny00NT
+ ZhLTlhZDAtMGNjZDQ3NjhmNWM4%40thread.v2/0?context=%7b%22Tid%22%3a%22e1fafc5
+ 8-7341-4d97-8440-4fde5d6e86de%22%2c%22Oid%22%3a%222e7136cd-a37a-460b-8066-
+ a3d310533dd0%22%7d>\nMeeting ID: 435 736 030 596 1\nPasscode: PK6g3ff7\n__
+ ______________________________\nFor organizers: Meeting options<https://te
+ ams.microsoft.com/meetingOptions/?organizerId=2e7136cd-a37a-460b-8066-a3d3
+ 10533dd0&tenantId=e1fafc58-7341-4d97-8440-4fde5d6e86de&threadId=19_meeting
+ _MmZmY2E1ZGYtM2I0Ny00NTZhLTlhZDAtMGNjZDQ3NjhmNWM4@thread.v2&messageId=0&la
+ nguage=en-US>\n___________________________________________________________
+ _____________________\n
+UID:040000008200E00074C5B7101A82E00800000000F4332041A932DC01000000000000000
+ 010000000EBF4552C40DFA94C9C90F0FC19A14345
+SUMMARY;LANGUAGE=en-US:ALAGU MARI - AI PYTHON FULLSTACK - BATCH - 1 
+DTSTART;TZID=India Standard Time:20251103T100000
+DTEND;TZID=India Standard Time:20251128T113000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20251103T060557Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:2
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+X-MICROSOFT-CDO-OWNERAPPTID:2124025390
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MmZmY2E1ZGYtM2I0Ny00NTZhLTlhZDAtMGNjZDQ3NjhmNWM4%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22e1fafc58-7341-4d97-8440-4fde5d6e86de%22%2c%22O
+ id%22%3a%222e7136cd-a37a-460b-8066-a3d310533dd0%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/e1fafc58-7341-4d97-8440-4fde5d6e86de/2e7136cd-a37a-460b-8066-a
+ 3d310533dd0/19_meeting_MmZmY2E1ZGYtM2I0Ny00NTZhLTlhZDAtMGNjZDQ3NjhmNWM4@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MmZmY2E1ZGYtM2I0Ny00NTZ
+ hLTlhZDAtMGNjZDQ3NjhmNWM4@thread.v2"\,"rid":"0"\,"mid":"0"\,"private":true
+ \,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

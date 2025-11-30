@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Booking - Client Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="https://lh3.googleusercontent.com/d/1MMMeyOUvJxiGrUV-xKWuuMqTaCTSzv8Z" alt="Beauty Logo"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <section class="booking-page">
+    <div class="page-container">
+      <h1 class="packages-title">Client Details</h1>
+
+      <div class="booking-grid">
+        <div class="booking-form-col">
+          <h3>Tell Us A Bit About Yourself</h3>
+
+          <div class="account-note">Already Have An Account? <a href="#">Log In</a> For Faster Booking.</div>
+
+          <form id="booking-form">
+            <label>Name *</label>
+            <input type="text" name="name" required>
+
+            <label>Email *</label>
+            <input type="email" name="email" required>
+
+            <label>Phone Number</label>
+            <div class="phone-row">
+              <select name="countryCode">
+                <option>+91</option>
+              </select>
+              <input type="tel" name="phone">
+            </div>
+
+            <label>Street *</label>
+            <input type="text" name="street" required>
+
+            <label>Apt. / Floor No.</label>
+            <input type="text" name="apt">
+
+            <label>City *</label>
+            <input type="text" name="city" required>
+
+            <label>State</label>
+            <input type="text" name="state">
+
+            <label>Add Your Message</label>
+            <textarea name="message" rows="6"></textarea>
+
+          </form>
+        </div>
+
+        <div class="booking-summary-col">
+          <h3>Booking Details</h3>
+          <div class="service-summary-card">
+            <p class="service-name">Bridal Makeup Luxury Package</p>
+            <p class="service-price">Rs 25000 Negotiable</p>
+            <p class="selected-datetime"><strong>12 May 2025 At 2:30 Am</strong></p>
+            <p class="service-location">Client's Place</p>
+            <p class="service-admin">Admin</p>
+            <p class="service-duration">8 Hr</p>
+            <hr>
+            <h4>Payment Details</h4>
+            <p class="service-price">Rs 25000 Negotiable</p>
+            <hr>
+            <p class="booking-note">By Completing Your Booking, You Agree To Receive Related SMS Notifications.</p>
+
+            <button id="final-book" class="request-book schedule-btn primary-btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
